@@ -1,0 +1,6 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/gohugo-ananke/ananke
+[submodule "themes/hugo-theme-retrocss"]
+	path = themes/hugo-theme-retrocss
+	url = https://github.com/PhantomPixelDev/hugo-theme-retrocss

@@ -1,0 +1,56 @@
+baseURL = "https://hotclaw.github.io/"
+locale = "en-us"
+title = "Things I Learned"
+theme = "hugo-theme-retrocss"
+copyright = "© 2026 HotClaw_"
+enableRobotsTXT = true
+enableEmoji = true
+
+# Hugo does not merge a theme's markup/outputs config into the site's, so these
+# live here. capitalizeListTitles keeps tags reading as they were written.
+capitalizeListTitles = false
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[pagination]
+  pagerSize = 6
+
+[params]
+  # Read by the theme for the home page's <title>, after the site title.
+  tagline = "Things I learned while perusing the world that may be useful to someone."
+  description = "Things I learned while perusing the world, mainly the Internet, that someone might need. My ADHD, dying websites, general enshittification etc. will probably make finding these things again a challenge, so I put them here for safekeeping."
+  accentHue = "primary"
+  borderRadius = "0"
+  sidebar = "left"
+  dateFormat = "2 January 2006"
+  showReadingTime = false
+  showToc = true
+  search = true
+  mainSections = ["VIM Things"]
+  images = []
+
+  [params.author]
+    name = "HotClaw_"
+    initials = "HC"
+    bio = "Gamer, dad, game dev."
+
+[menus]
+  [[menus.main]]
+    name = "VIM Things"
+    pageRef = "/VIM Things"
+    weight = 10
+  [[menus.main]]
+    name = "Tags"
+    pageRef = "/tags"
+    weight = 20
+  [[menus.main]]
+    name = "GitHub"
+    url = "https://github.com/HotClaw"
+    weight = 50
+    [menus.main.params]
+      tooltip = "Where my code ~~goes to die~~ lives!"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
