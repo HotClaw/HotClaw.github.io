@@ -10,29 +10,27 @@ title = 'Useful shortcuts'
 
 `HOME` = Centre all objects
 
-`Numpad`
+`Numpad .` = Centre selected object/vertices/whatever in the viewport
 
-`.` = Centre selected object/vertices/whatever in the viewport
+`Numpad 0` = Look through camera
 
-`0` = Look through camera
+`Numpad 1` = Front view
 
-`1` = Front view
+`Numpad 3` = Right view
 
-`3` = Right view
+`Numpad 7` = Top view
 
-`7` = Top view
+`Numpad 9` = Opposite of current view (e.g. if in `top`, flips to `bottom`)
 
-`9` = Opposite of current view (e.g. if in `top`, flips to `bottom`)
+`Numpad 2` = Rotate view down
 
-`2` = Rotate view down
+`Numpad 8` = Rotate view up
 
-`8` = Rotate view up
+`Numpad 4` = Rotate view left
 
-`4` = Rotate view left
+`Numpad 6` = Rotate view right
 
-`6` = Rotate view right
-
-`5` = Toggle orthographic projection
+`Numpad 5` = Toggle orthographic projection
 
 ### Transforming stuff
 

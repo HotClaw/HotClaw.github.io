@@ -4,7 +4,9 @@ draft = false
 title = 'Find & replace across files'
 +++
 
-```cfdo %s/stringOne/stringTwo/g | update | bd```
+```bash
+cfdo %s/stringOne/stringTwo/g | update | bd
+```
 
 ## In short
 

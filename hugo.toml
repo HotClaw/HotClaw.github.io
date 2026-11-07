@@ -20,14 +20,14 @@ capitalizeListTitles = false
   # Read by the theme for the home page's <title>, after the site title.
   tagline = "Things I learned while perusing the world that may be useful to someone."
   description = "Things I learned while perusing the world, mainly the Internet, that someone might need. My ADHD, dying websites, general enshittification etc. will probably make finding these things again a challenge, so I put them here for safekeeping."
-  accentHue = "primary"
+  accentHue = "orange"
   borderRadius = "0"
   sidebar = "left"
   dateFormat = "2 January 2006"
   showReadingTime = false
   showToc = true
   search = true
-  mainSections = ["vim-things"]
+  mainSections = ["vim-things", "blender-things"]
   images = []
 
   [params.author]
@@ -41,9 +41,13 @@ capitalizeListTitles = false
     pageRef = "/vim-things"
     weight = 10
   [[menus.main]]
+    name = "Blender Things"
+    pageRef = "/blender-things"
+    weight = 20
+  [[menus.main]]
     name = "Tags"
     pageRef = "/tags"
-    weight = 20
+    weight = 30
   [[menus.main]]
     name = "GitHub"
     url = "https://github.com/HotClaw"
