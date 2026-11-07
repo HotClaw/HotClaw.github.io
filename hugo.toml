@@ -27,7 +27,7 @@ capitalizeListTitles = false
   showReadingTime = false
   showToc = true
   search = true
-  mainSections = ["VIM Things"]
+  mainSections = ["vim-things"]
   images = []
 
   [params.author]
@@ -38,7 +38,7 @@ capitalizeListTitles = false
 [menus]
   [[menus.main]]
     name = "VIM Things"
-    pageRef = "/VIM Things"
+    pageRef = "/vim-things"
     weight = 10
   [[menus.main]]
     name = "Tags"
